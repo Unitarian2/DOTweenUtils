@@ -1,12 +1,12 @@
 # DOTweenUtils
 
- # <b>ÖNEMLİ NOT :</b> Bu paketin DOTween pakedine dependency'si vardır. Lütfen önce DOTween pakedini projenize yükleyin. <br>
+ # <b>IMPORTANT NOTE: This package has a dependency on the DOTween package. Please make sure to install the DOTween package in your project first. <br>
 ## _https://assetstore.unity.com/publishers/1341_
 
 ## Usage
-- Script'i kullanmak istediğiniz UI Gameobject'e ekleyin.
-- performOnStart seçeneğini TRUE yaparsanız, Gameobject'in Start metodunda animasyon otomatik olarak başlatılır.
-- Perform/Stop metodlarını kullanarak kod üzerinden de animasyonu başlatabilir veya durdurabilirsiniz.
+- Add the script to the UI GameObject you want to use it with as a component.
+- If you set the performOnStart option to TRUE, the animation will automatically start in the GameObject's Start method.
+- You can also start or stop the animation programmatically using the Perform/Stop methods.
 ```sh
 public class ExampleScript : MonoBehaviour
 {  
