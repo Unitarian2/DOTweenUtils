@@ -1,5 +1,7 @@
 # DOTweenUtils
 
+This package was developed to facilitate animation processes with Sequences and Tweens for UGUI elements in DOTween. It works with a component-based approach.
+
  # IMPORTANT NOTE: This package has a dependency on the DOTween package. Please make sure to install the DOTween package in your project first. <br>
 ## _https://assetstore.unity.com/publishers/1341_
 
