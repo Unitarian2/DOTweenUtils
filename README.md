@@ -19,7 +19,7 @@ public class ExampleScript : MonoBehaviour
     {
         //Value 1 will fully fill the slider.
         //For example, if you send 1.4f, slider will animate to 1f first, 
-        //and then will zero out itself and lastly animation to 0.4f.
+        //and then will zero out and animate itself to 0.4f.
         var sliderAnimator  = slider.GetComponent<SliderRunToValue>();
         sliderAnimator.Perform()
             .SetValue(1.5f)
