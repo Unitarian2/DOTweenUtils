@@ -5,7 +5,7 @@
 
 ## Usage
 - Add the script to the UI GameObject you want to use it with as a component.
-- If you set the performOnStart option to TRUE, the animation will automatically start in the GameObject's Start method.
+- If you set the performOnStart option to TRUE, the animation will automatically start in the GameObject's Start method so, you don't have to start it manually.
 - You can also start or stop the animation programmatically using the Perform/Stop methods.
 ```sh
 public class ExampleScript : MonoBehaviour
